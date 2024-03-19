@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #320051ea;
+    font-family: 'poppins';
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+header {
+    background-color: rgb(117, 67, 167);
+    opacity: 1;
+
+}
+
+header a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+header a:hover {
+    color: rgba(144, 119, 228, 0.804);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: rgba(144, 119, 228, 0.804);
+}
+
+.text-primary {
+    letter-spacing: 2px;
+    color: #fff !important;
+    margin-left: 0 !important;
+}
+
+.alert {
+    z-index: 100;
+}
+
+.card {
+    background-color: #ffffff2e;
+}
+
+.card .img {
+    padding-top: 15px;
+    width: 90px;
+    margin: 0 auto;
+}
+
+.card .card-title {
+    padding-top: 20px !important;
+    font-size: 18px;
+}
+
+.card .card-body .card-text {
+    font-size: 15px;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.card .card-body .card-text span {
+    font-size: 13px;
+    letter-spacing: 0px;
+    font-weight: 400;
+
+}
+
+.description {
+    height: 25px;
+    overflow: hidden;
+    transition: height .2s ease-in .2s;
+}
+
+.description:hover {
+    height: 50px;
+}
+
+h5,
+h5 span {
+    font-size: 18px;
+
+}
+
+.btn {
+    background-color: #3711548c;
+    border-color: #3711548c;
+    border-width: 2px;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border-color: #3711548c;
+}
+
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: transparent;
+    border-color: #3711548c;
+    outline: none;
+
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    background-color: transparent;
+    border-color: #3711548c;
+    outline: none;
+    box-shadow: none;
+}
+
+.carrito {
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.table__productos {
+    display: flex;
+
+}
+
+.table__productos>img {
+    width: 60px;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__productos .title {
+    color: #fff;
+    font-size: 18px;
+}
+
+.table__price p {
+    color: #fff;
+}
+
+.table__cantidad {
+    position: relative;
+}
+
+.table__cantidad>input {
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.delete {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 65px;
+}
+
+.delete i {
+
+    color: #8a3030;
+    font-size: 20px;
+
+}
+
+.delete i:hover {
+    color: #a50404;
+}
+
+.btn-check:active+.btn-danger:focus,
+.btn-check:checked+.btn-danger:focus,
+.btn-danger.active:focus,
+.btn-danger:active:focus,
+.show>.btn-danger.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-check:active+.btn-danger,
+.btn-check:checked+.btn-danger,
+.btn-danger.active,
+.btn-danger:active,
+.show>.btn-danger.dropdown-toggle {
+    background-color: transparent;
+    border: transparent;
+}
+
+.btn-check:focus+.btn-danger,
+.btn-danger:focus {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+}
+
+.btn-success {
+    padding: 7px 50px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #371154;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.btn-success:hover {
+    background-color: #ffffff2e;
+    border-color: #fff;
+}
+
+.btn-check:active+.btn-success,
+.btn-check:checked+.btn-success,
+.btn-success.active,
+.btn-success:active,
+.show>.btn-success.dropdown-toggle {
+    background-color: #ffffff2e;
+    border-color: #fff;
+}
+
+.btn-check:active+.btn-success:focus,
+.btn-check:checked+.btn-success:focus,
+.btn-success.active:focus,
+.btn-success:active:focus,
+.show>.btn-success.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-check:focus+.btn-success,
+.btn-success:focus {
+    background-color: #ffffff2e;
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.hide,
+.remove {
+    display: none;
+}
